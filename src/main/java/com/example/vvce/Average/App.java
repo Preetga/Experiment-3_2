@@ -15,7 +15,7 @@ public class App {
 	}
     public static void main(String[] args) {
         App app=new App();
-        System.out.println(app.avgoftwo(1, 2));
-        System.out.println(app.avgofthree(1,2,3));
+        System.out.println(app.avgoftwo(2, 3));
+        System.out.println(app.avgofthree(2,3,4));
     }
 }

@@ -4,6 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
+
 /**
  * Unit test for simple App.
  */
@@ -14,10 +15,10 @@ App app=new App();
      */
     @Test
     public void AverageofTwoNumber() {
-        assertEquals(1,app.avgoftwo(1,2));
+        assertEquals(2,app.avgoftwo(2,3));
     }
-    
+    @Test
     public void AverageofThreeNumber() {
-    	assertEquals(2,app.avgofthree(1, 2, 3));
+    	assertEquals(3,app.avgofthree(2, 3, 4));
     	}
 }
